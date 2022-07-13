@@ -1,0 +1,16 @@
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\bin\Debug\netstandard2.0\FirstXamFormApp.deps.json
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\bin\Debug\netstandard2.0\FirstXamFormApp.dll
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\bin\Debug\netstandard2.0\FirstXamFormApp.pdb
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\FirstXamFormApp.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\FirstXamFormApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\Views\CoffeeEquipmentPage.xaml.g.cs
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\FirstXamFormApp.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\FirstXamFormApp.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\FirstXamFormApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\FirstXamFormApp.dll
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\refint\FirstXamFormApp.dll
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\FirstXamFormApp.pdb
+C:\Users\HP\OneDrive\Documents\Personal Projects\FirstXamFormApp\FirstXamFormApp\obj\Debug\netstandard2.0\ref\FirstXamFormApp.dll

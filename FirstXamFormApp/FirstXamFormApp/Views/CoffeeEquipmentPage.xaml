@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:FirstXamFormApp.ViewModels"
+              xmlns:model="clr-namespace:FirstXamFormApp.Models"
+             x:Class="FirstXamFormApp.Views.CoffeeEquipmentPage" 
+             BackgroundColor="White"
+             x:DataType="viewmodels:CoffeeEquipmentViewModel"
+             x:Name="CoffeePage"> <!-- x:Name references the datatype -->
+    <ContentPage.BindingContext>
+        <viewmodels:CoffeeEquipmentViewModel/>
+    </ContentPage.BindingContext>
+
+
+    <ListView 
+        SelectedItem="{Binding SelectedCoffee, Mode=TwoWay}"
+        CachingStrategy="RecycleElement"
+        BackgroundColor="Transparent"
+        ItemsSource="{Binding CoffeeGroups}"
+        IsGroupingEnabled="True"
+        HasUnevenRows="True"
+        GroupDisplayBinding="{Binding Key}"
+        SeparatorVisibility="None"
+        IsPullToRefreshEnabled="True"
+        IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+        RefreshCommand="{Binding RefreshCommand}"
+        RefreshControlColor="Red">
+        <ListView.ItemTemplate>
+            <DataTemplate x:DataType="model:Coffee"> <!-- Sets binding context to Coffee-->
+                <ViewCell>
+                    <ViewCell.ContextActions>
+                        <MenuItem Text="Favorite" 
+                                  Command="{Binding 
+                                            Source={x:Reference CoffeePage},
+                                            Path=BindingContext.FavoriteCommand}"
+                                  CommandParameter="{Binding .}" 
+                        />  <!-- References viewmodel as binding context to so we can bind the favorite command. Needed for binding-->
+                        <MenuItem Text="Delete" IsDestructive="True"/>
+                    </ViewCell.ContextActions>
+                    <Grid Padding="10">
+                        <Frame CornerRadius="20"
+                               HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding Image}"
+                                       WidthRequest="66"/>
+                                <StackLayout>
+                                    <Label VerticalOptions="Center"
+                                        FontSize="Large"
+                                       Text="{Binding Name}"/>
+                                    <Label VerticalOptions="Center"
+                                       FontSize="Large"
+                                       Text="{Binding Roaster}"/>
+                                </StackLayout>
+
+                                <Button Text="Favorite" 
+                                        CommandParameter="{Binding .}"
+                                        Command="{Binding 
+                                    Source={RelativeSource 
+                                    AncestorType={x:Type viewmodels:CoffeeEquipmentViewModel}}, 
+                                    Path=FavoriteCommand}"/>
+                                <!-- Better way to do reference binding (relative source) -->
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>

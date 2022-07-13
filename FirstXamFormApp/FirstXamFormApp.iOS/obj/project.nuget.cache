@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "7QIyRfs5FSmXWHh+w0CKihm4TWvajkKd+vNLUU+EqoWbcuYgSdhGVafPpRyW7uolSqTMrIQySUwBrCisN87iwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\OneDrive\\Documents\\Personal Projects\\FirstXamFormApp\\FirstXamFormApp.iOS\\FirstXamFormApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\xamarin.forms\\5.0.0.2478\\xamarin.forms.5.0.0.2478.nupkg.sha512"
+  ],
+  "logs": []
+}
